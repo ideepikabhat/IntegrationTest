@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CitiesModelStoreContainer" CdmEntityContainer="CitiesEntities">
+    <EntitySetMapping Name="CityDetails">
+      <EntityTypeMapping TypeName="CitiesModel.CityDetail">
+        <MappingFragment StoreEntitySet="CityDetails">
+          <ScalarProperty Name="city_id" ColumnName="city_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="tourist_rating" ColumnName="tourist_rating" />
+          <ScalarProperty Name="date_established" ColumnName="date_established" />
+          <ScalarProperty Name="estimated_population" ColumnName="estimated_population" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
